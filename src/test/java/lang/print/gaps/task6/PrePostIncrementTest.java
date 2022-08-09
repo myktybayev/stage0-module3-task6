@@ -35,6 +35,7 @@ class PrePostIncrementTest extends BaseIOTest {
                         line.contains("+ 1") || line.contains("+1"))
                 .collect(Collectors.toList());
 
+
         assertEquals(0, castedRows.size());
     }
 }
